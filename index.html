@@ -2,9 +2,109 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>SitOnChair</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
 </head>
 <body>
 
 </body>
 </html>
+
+
+<header class="header">
+    <div class="container">
+        <div class="menu">
+            <div class="col-2-layout">
+                <div class="column1">
+                    <span class="logo">Sit <span class="style-on">on</span>  chair</span>
+                </div>
+            <nav class="column2">
+                <ul class="site-menu">
+                    <li><a href="">O firmie</a> </li>
+                    <li><a href="">Galeria</a> </li>
+                    <li><a href="">Kontakt</a> </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div class="container">
+        <section class="presentation1">
+    - sekcja z fotelem i opisem
+        </section>
+    </div>
+
+<div class="container">
+<section class="presentation2"> - sekcja ze zdjęciami foteli
+    <div class="columns3">
+
+            <div class="column">
+                <img src="images/box1_img.jpg">
+            </div>
+            <div class="column">
+                <img src="images/box2_img.jpg">
+            </div>
+            <div class="column">
+                <div class="inside-frame">
+                    <h2>Finds all inputs</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cum dicta distinctio ex illo nam optio? Amet architecto dicta ducimus optio porro, qui quidem quod ratione repellendus tempora ullam vel.</p>
+
+
+                </div>
+            </div>
+
+
+    </div>
+</section>
+
+</div>
+<div class="container">
+<section class="presentation3"> - sekcja z cennikiem</section>
+    </div>
+<div class="container">
+
+<section class="presentation4"> - sekcja z formularzem</section>
+</div>
+<div class="container">
+<footer class="presentation5">
+    - stopka strony, ponieważ ma takie samo tło jak sekcja wyżej, nie odcina się od niej w widoczny sposób, stanowi jednak odrębną część strony
+
+</footer>
+</div>
+<!--<header></header>
+
+
+Spróbujmy wypisać najbardziej ogólne cechy każdej sekcji
+
+Kolor – każda sekcja ma swój kolor
+Szerokośc – wszystkie sekcje są rozciągnięte na całą szerokość strony
+Paddingi – każdej sekcji można przypisać marginesy wewnętrzne u góry i u dołu
+Zawartość sekcji – zawartość każdej sekcji jest wyśrodkowana względem szerokości całej sekcji i posiada takie same paddingi z lewej i z prawej strony
+
+Podsumowanie:
+
+Pierwsze trzy punkty mówią nam jakie właściwości CSS powinniśmy przypisać każdej sekcji. Ostatni punkt informuje nas, że strona ma ustaloną szerokość i potrzebny jest div, który będzie odpowiedzialny za wyśrodkowanie każdej sekcji .
+
+W każdej sekcji potrzebny jest div, który przy pomocy przypisanych mu właściwości w CSS, będzie trzymał zawartość strony na środku względem całej szerokości sekcji. Dodaj mu klasę, której nazwa będzie adekwatna do spełnianej funkcji, np. „ wrapper”, „ container”, „ main-width” itp. Właściwości, które powinna zawierać, to:
+
+max-width – pozwoli zdefiniować maksymalną szerokość strony
+margin: 0 auto – wyśrodkuje zawartość strony
+padding-left i padding-right o takiej samej wartości – zachowa margines wewnętrzny z lewej i prawej strony, aby treść strony nie stykała się z krawędzią okna przeglądarki
+
+Przypatrz się z jakich elementów głównych składa się każda z wydzielonych przez nas sekcji. Np.:
+
+Header – logo SIT ON CHAIR oraz nawigacja
+Sekcja z cennikiem – tytuł sekcji z podkreśleniem oraz trzy takie same elementy z treścią oferty
+Sekcja z formularzem – tytuł sekcji z podkreśleniem oraz formularz
+itd.
+
+Następnie zwróć uwagę jak elementy główne są ustawione względem siebie (czy są obok siebie, pod sobą, po przeciwległych stronach okna)
+
+Zastanów się jakie właściwości odpowiedzialne za rozmieszczenie elementów na stronie ( display, float), powinieneś przypisać divom w których umieścisz elementy główne .
+Logo SIT ON CHAIR - składa się tylko z tegoż napisu (np. <p> lub <span>)
+Nawigacja - składa się tylko z listy nieuporządkowanej ( <ul>)
+Tytuł sekcji - składa się z napisu (np. <p> lub <span>) oraz poziomej kreski ( before lub after dla napisu lub <span>)
